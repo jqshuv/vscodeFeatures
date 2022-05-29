@@ -12,7 +12,7 @@ set +a
 
 
 if [ ! -z ${_BUILD_ARG_PAX} ]; then
-    echo "Activating feature 'pac'"
+    echo "Activating feature 'pax'"
 
     # Build args are exposed to this entire feature set following the pattern:  _BUILD_ARG_<FEATURE ID>_<OPTION NAME>
     GREETING=${_BUILD_ARG_HELLOWORLD_GREETING:-undefined}
